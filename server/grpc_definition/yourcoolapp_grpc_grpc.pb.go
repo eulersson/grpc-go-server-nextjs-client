@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v4.25.2
-// source: taconez_grpc.proto
+// source: yourcoolapp_grpc.proto
 
 package grpc_definition
 
@@ -103,5 +103,5 @@ var Greeter_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "taconez_grpc.proto",
+	Metadata: "yourcoolapp_grpc.proto",
 }

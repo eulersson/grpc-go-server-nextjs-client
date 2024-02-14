@@ -14,7 +14,7 @@
 
 syntax = "proto3";
 
-option go_package = "taconez/grpc_definition";
+option go_package = "yourcoolapp/grpc_definition";
 
 package grpc_definition;
 

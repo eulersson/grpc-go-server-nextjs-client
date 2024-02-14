@@ -27,7 +27,7 @@ import (
 	"net"
 
 	"google.golang.org/grpc"
-	pb "taconez/grpc_definition"
+	pb "yourcoolapp/grpc_definition"
 )
 
 var (

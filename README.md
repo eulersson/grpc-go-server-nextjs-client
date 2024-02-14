@@ -15,9 +15,9 @@ Protobuf, therefore must not be edited. If you want to regenerate them or update
 `myservice.proto` then check the `protoc` calls on the `client/Dockerfile` and
 `server/Dockerfile` to see how to generate the languge-specific interfaces:
 
-- `client/lib/rpc/taconez_grpc.ts`
-- `server/grpc_definition/taconez_grpc_grpc.pb.go`
-- `server/grpc_definition/taconez_grpc.pb.go`
+- `client/lib/rpc/yourcoolapp_grpc.ts`
+- `server/grpc_definition/yourcoolapp_grpc_grpc.pb.go`
+- `server/grpc_definition/yourcoolapp_grpc.pb.go`
 
 There is a `production` mode that would deliver thinner containers, removing
 intermediary files. For instance in the case of Next.js the production container would

@@ -1,6 +1,6 @@
 import { ChannelCredentials } from "@grpc/grpc-js";
 
-import { GreeterClient } from "@/lib/rpc/taconez_grpc";
+import { GreeterClient } from "@/lib/rpc/yourcoolapp_grpc";
 
 export function GET(request: Request) {
 

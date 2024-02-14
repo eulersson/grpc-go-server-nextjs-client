@@ -1,4 +1,4 @@
-module taconez
+module yourcoolapp
 
 go 1.21.6
 
